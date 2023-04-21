@@ -1,0 +1,64 @@
+/*Setting global value for font color*/
+*{
+    color: midnightblue;
+}
+
+body{
+    background-image: url(img/backgroundabout.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Main content for the about page*/
+h1{
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+    font-size: 50px;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+.title1{
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+    padding-bottom: 10px;
+}
+
+.introduction-banner{
+    padding: 60px 200px;
+    font-family: 'Gloock', serif;
+    font-weight: 400; 
+}
+
+.introduction{
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.introduction img{
+    height: 100%;
+    width: 100%;
+}
+
+.introt{
+    font-size: 50px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+
+/*This part is for the video section*/
+.vidt{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Oleo Script', cursive;
+    padding-bottom: 10px;
+    background: linear-gradient(270deg, #69b7eb, #b3dbd3, #f4d6db);
+}
+
+.vid{
+    padding-left: 3%;
+}

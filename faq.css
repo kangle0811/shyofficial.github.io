@@ -1,0 +1,88 @@
+body {
+    font-family: var(--ff-2);
+    background: rgb(250, 250, 250);
+    color: black;
+    background-image: url(img/backgroundfaq.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gloock', serif;
+    color: rgb(0, 55, 255);
+}
+
+main h1{
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+    font-size: 50px;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black ;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question h3{
+    font-size: 1.8em;
+    color: rgb(255, 136, 0);
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+    color: rgb(0, 106, 255);
+    background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+    border-radius: 15px;
+    padding: 0 15px;
+}
+
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+
+.faq.active .answer {
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+.faq.active svg{
+    transform: rotate(180deg); 
+}
+
+svg {
+    transition: transform 0.5s ease-in;
+}
+
+
+@keyframes fade{
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

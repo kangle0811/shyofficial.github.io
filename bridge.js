@@ -1,0 +1,80 @@
+let shopItemsData = [
+    {
+        id: "gaegfeagr",
+        name: "S.H.Y EXCLUSIVE SHIRT",
+        price: 69,
+        img: "img/design1.jpg",
+    },
+    {   
+        id: "fghsdfhdr",
+        name: "S.H.Y EXCLUSIVE SHIRT",
+        price: 69,
+        img: "img/design2.jpg",
+    },
+    {   
+        id: "guyjyu",
+        name: "ART HOODIE",
+        price: 89,
+        img: "img/design3.jpg",
+    },
+    {   
+        id: "awrawe",
+        name: "K-STYLE OVERSIZE",
+        price: 75,
+        img: "img/design4.jpg",
+    },
+    {   
+        id: "rtutydyh",
+        name: "POP ART HOODIE",
+        price: 89,
+        img: "img/design5.jpg",
+    },
+    {   
+        id: "sdgvsg",
+        name: "STYLISH STREETWEAR HOODIE",
+        price: 89,
+        img: "img/design6.jpg",
+    },
+    {   
+        id: "argbzdsfgf",
+        name: "CASUAL EXCLUSIVE SHORT PANT",
+        price: 50,
+        img: "img/design7.jpg",
+    },
+    {   
+        id: "phiouhk",
+        name: "CASUAL EXCLUSIVE SHORT PANT",
+        price: 50,
+        img: "img/design8.jpg",
+    },
+    {   
+        id: "okfgjfdf",
+        name: "SLIM BELL-BOTTOMS LONG PANT",
+        price: 79,
+        img: "img/design9.jpg",
+    },
+    {   
+        id: "rgsrdgdshth",
+        name: "STRAIGHT CUI CASUAL LONG PANT",
+        price: 79,
+        img: "img/design10.jpg",
+    },
+    {   
+        id: "hsfgsth",
+        name: "SKINNY LONG PANT",
+        price: 65,
+        img: "img/design11.jpg",
+    },
+    {   
+        id: "insrfndty",
+        name: "K-FASHION HAT",
+        price: 25,
+        img: "img/design12.jpg",
+    },
+    {   
+        id: "thsrjsss",
+        name: "SHORT SOCKS",
+        price: 30,
+        img: "img/design13.jpg",
+    },
+];

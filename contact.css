@@ -1,0 +1,130 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/servecus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.contact-box{
+    width: 710px;
+    height: 580px;
+    background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+    border-radius: 20px;
+    position: relative;
+    border-color:#69b7eb;
+    border-style: solid;
+}
+
+.parttitle{
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+    margin-top: 30px;
+    font-size: 50px;
+    color: midnightblue;
+    text-decoration: underline;
+}
+
+.content{
+    justify-content: center;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 300px;
+    margin-top: 20px;
+}
+
+
+.circle a{
+    border-radius: 100%;
+    background-color: #69b7eb;
+    padding: 20px;
+    color: midnightblue;
+}
+
+.text{
+    display: block;
+    width: 100px;
+    margin-top: 40px;
+    font-family: 'Oleo Script', cursive;
+    color: midnightblue;
+}
+
+.enquiry-box p{
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+    margin-top: 10px;
+    font-size: 30px;
+    color: midnightblue;
+    text-decoration: underline;
+    padding: 2em;
+}
+
+.enquiry-box h3{
+    text-align: center;
+    color: midnightblue;
+    padding: 0 40px;
+}
+
+form{
+    padding: 2em 4em;
+    font-size: 20px;
+}
+
+input[type=text], input[type=email], textarea{
+    display: block;
+    margin-bottom: 1em;
+    margin-left: 8em;
+    background: #cce0ef;
+    color: #000000;
+}
+
+#submitted{
+    margin-left: 8em;
+    padding: 8px 20px;
+    background: #000000;
+    color: #ffffff;
+}
+
+#submitted:hover{
+    background: #088178;
+}
+
+label{
+    float: left;
+    padding-right: 1em;
+    text-align: right;
+    color: midnightblue;
+    font-family: 'Oleo Script', cursive;
+}
+
+/*This is for the member2 page after the user joined the membership program.*/
+.enquiry1{
+    text-align: center;
+    margin-bottom: 100%;
+    margin-top: 100px;
+    font-family: 'Gloock', serif;
+}
+
+.enquiry{
+    font-size: 25px;
+    color: midnightblue;
+    padding: 10px;
+}
+
+.tenor-gif-embed{
+    position: relative;
+    left: 40%;
+}
