@@ -102,7 +102,7 @@ let clearCart = () => {
   basket = [];
   generateCartItems();
   localStorage.setItem("data", JSON.stringify(basket));
-  calculate();
+  calculation();
 };
 
 let TotalAmount = () => {
